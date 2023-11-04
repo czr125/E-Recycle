@@ -3,33 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./assets/recycle.png">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>E-Recycle - Reciclagem de Lixo Eletrônico</title>
 </head>
 <body>
+
     <header>
         <h1> <img src="./assets/recycle.png" width="30px" height="30px" alt="Reciclagem">E-Recycle</h1>
         <p>Transformando o Lixo Eletrônico em Sustentabilidade</p>
+        <nav>
+            <div id="nav-container">
+                <a class="nav-item" href="#sobre">Sobre</a>
+                <a class="nav-item" href="#mapa">Locais</a>
+                <a class="nav-item" href="./ofertas.html">Ofertas</a>
+            </div>
+        </nav>
     </header>
-    
     <main>
         <section id="sobre">
-            <h2>Sobre o Projeto</h2>
-            <p>O E-Recycle é uma iniciativa que visa promover a reciclagem responsável de lixo eletrônico. Através deste projeto, pretendemos reduzir o impacto ambiental do descarte inadequado de dispositivos eletrônicos, preservar recursos naturais e criar uma comunidade mais consciente da importância da reciclagem.</p>
+                <h2>Sobre o Projeto</h2>
+                <p>O E-Recycle é uma iniciativa que visa promover a reciclagem responsável de lixo eletrônico. <br>
+                    Através deste projeto, pretendemos reduzir o impacto ambiental do descarte inadequado de dispositivos eletrônicos, <br>
+                    preservar recursos naturais e criar uma comunidade mais consciente da importância da reciclagem.</p>
+            <img id="recycleImg" src="./assets/home/lixoEletronico.png">
+        </section>   
+        <section id="info">
+                <h2>O que é lixo eletrônico?</h2>
+                <p>É o termo usado para descrever qualquer tipo de equipamento ou dispositivo eletrônico descartado ou em fim de vida útil.<br>
+                    Isso inclui uma ampla variedade de dispositivos eletrônicos, como: computadores, smartphones, tablets, eletrodomésticos etc.</p>
+            <img id="recycleImg2" src="./assets/home/lixoEletronico2.png">
         </section>
-        
+        <section id="info2">
+                <h2>Problemática do lixo eletrônico</h2>
+                <p>O lixo eletrônico é um problema importante porque muitos desses dispositivos têm substâncias prejudiciais,<br>
+                    como chumbo e mercúrio, que podem ser perigosas para o meio ambiente e a saúde se não forem descartadas corretamente.<br>
+                    Além disso,  após contaminarem o solo, podem atingir lençóis freáticos, assim, contaminando a água.</p>
+            <img id="recycleImg3" src="./assets/home/lixoEletronico3.png">
+        </section>
+        <section id="info3">
+            <h2>Então, o que devo fazer?</h2> 
+            <p>Reciclagem: Muitos componentes eletrônicos, como metais preciosos, plásticos e vidro, podem ser reciclados. Encontre locais de reciclagem ou programas locais para descartar seus aparelhos eletrônicos de maneira responsável.</p>
+            <br><p>Doação: Se seus dispositivos funcionam bem, pense em doá-los para instituições de caridade, escolas ou grupos sem fins lucrativos que possam usá-los novamente. Isso ajuda a manter seus dispositivos em uso por mais tempo e ajuda pessoas que não têm acesso à tecnologia.</p>
+            <br><p>Recondicionamento: Dispositivos antigos podem ser reparados e melhorados por empresas especializadas para serem vendidos como produtos recondicionados, o que ajuda a reduzir o desperdício.</p>
+            <br><p>Trocas e Programas de Reciclagem de Fabricantes: Algumas empresas de tecnologia oferecem programas de reciclagem ou troca de dispositivos antigos ao comprar novos. Isso incentiva os consumidores a devolverem seus dispositivos antigos para reciclagem ou reutilização.</p>
+            <br><p>Ponto de Coleta: Veja se há lugares em sua comunidade onde você pode deixar seus aparelhos eletrônicos para serem descartados corretamente</p>
+        </section>
         <section id="mapa">
-            <h2>Local de Coleta em Belém do Pará</h2>
+            <h2>Locais de Coleta</h2>
             <div id="map">
                 <iframe src="https://www.google.com/maps/d/embed?mid=1OUXAgKq2aCfTeRUE6L9DArmOM3BDvPc&ehbc=2E312F" width="600" height="400"></iframe>
             </div>
         </section>
     </main>
-    
-    <footer>
-        &copy; 2023 E-Recycle
-    </footer>
-    
-    <!-- <script src="script.js"></script> -->
+<footer>
+    &copy; 2023 E-Recycle
+</footer>
+<script src="./js/script.js"></script> 
 </body>
 </html>

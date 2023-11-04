@@ -1,0 +1,107 @@
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    background-color: #c2bfbf;
+    color: #fff;
+}
+
+/* Estilos da página */
+header {
+    background-color: #42B983;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#nav-container{
+    padding-top: 20px;
+    
+}
+.nav-item{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 10px;
+}
+.nav-item:hover{
+    color: #ffffffc7;
+}
+main {
+    padding: 20px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+/* Estilos para as seções */
+section {
+    margin-bottom: 30px;
+}
+#sobre, #info, #info2, #info3{
+    padding: 70px;
+}
+#sobre h2{
+    color: #000;
+} 
+#recycleImg{
+    z-index: 1000;
+    width: 250px;
+    height: 250px;
+    float: right;
+    margin-top: -190px;
+}
+#sobre, #info2 p{
+    color: #333333c9;
+}
+#info{
+    padding: 90px;
+    text-align: right;
+    background-color: #3c556b;
+    width: 100%;
+}
+#info h2{
+    color: #3dc789;
+}
+#recycleImg2{
+    float: left;
+    z-index: 1000;
+    width: 250px;
+    height: 250px;
+    margin-top: -170px;
+}
+#info2{
+    padding: 90px;
+    text-align: left;
+    width: 100%;
+}
+#info2 h2{
+    color: #000;
+}
+#recycleImg3{
+    float: right;
+    width: 250px;
+    height: 250px;
+    margin-top: -200px;
+}
+#info3{
+    text-align: center;
+    background-color: #3c7f78;
+    padding: 15px;
+}
+#info3 h2{
+    padding-bottom: 15px;
+}
+#mapa{
+    text-align: center;
+}
+#mapa h2{
+    padding: 15px;
+}
