@@ -1,1 +1,1 @@
-:tada: ## E-recycle
+## :tada: E-recycle
