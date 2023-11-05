@@ -45,73 +45,96 @@ footer {
 section {
     margin-bottom: 30px;
 }
-#sobre, #info, #info2, #info3{
-    padding: 70px;
-}
 /* Sobre */
+#sobre{
+    padding: 90px;
+}
 #sobre h2{
     color: #000;
+    font-weight: bold;
 } 
+#sobre p{
+    font-weight: 700;
+    color:#333;
+}
 #recycleImg{
-    z-index: 1000;
     width: 250px;
     height: 250px;
     float: right;
-    margin-top: -190px;
-}
-#sobre, #info2 p{
-    color: #333333c9;
+    margin-top: -11%;
 }
 /* Info */
 #info{
     padding: 90px;
     text-align: right;
     background-color: #3c556b;
-    width: 100%;
 }
 #info h2{
     color: #3dc789;
+    font-weight: bold;
+}
+#info p{
+    font-weight: 700;
 }
 #recycleImg2{
     float: left;
-    z-index: 1000;
     width: 250px;
     height: 250px;
-    margin-top: -170px;
+    margin-top: -9.5%;
 }
 /* Info 2 */
 #info2{
     padding: 90px;
     text-align: left;
-    width: 100%;
 }
 #info2 h2{
     color: #000;
+    font-weight: bold;
+}
+#info2 p{
+    font-weight: 700;
+    color: #333;
 }
 #recycleImg3{
     float: right;
     width: 250px;
     height: 250px;
-    margin-top: -200px;
+    margin-top: -11%;
 }
 /* Info3 */
 #info3{
-    text-align: center;
-    background-color: #3c7f78;
-    padding: 15px;
+    background-color: #3c556b;
+    padding: 90px;
 }
 #info3 h2{
-    padding-bottom: 15px;
+    color: #3dc789;
+    font-weight: bold;
+}
+#info3 p{
+    font-weight: 700;
 }
 /* Mapa */
 #mapa{
     text-align: center;
 }
 #mapa h2{
+    font-weight: bold;
     padding: 15px;
+    color: #000;
+}
+/* Back to top */
+#backTop{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+#backTop a{
+    font-size: 25px;
+    text-decoration: none;
+    color: #000;
 }
 /* Media queries */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1700px) {
     main {
         display: block;  
     }
@@ -119,7 +142,7 @@ section {
         width: 30vh;
     }
     iframe{
-        width: 40vh;
+        width: 35vh;
     }
     section{
         margin: 0;
