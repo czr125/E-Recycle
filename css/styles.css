@@ -105,3 +105,18 @@ section {
 #mapa h2{
     padding: 15px;
 }
+
+@media screen and (max-width: 768px) {
+    main {
+        display: block;  
+    }
+    #recycleImg, #recycleImg2, #recycleImg3{
+        width: 30vh;
+    }
+    iframe{
+        width: 40vh;
+    }
+    section{
+        margin: 0;
+    }
+}
