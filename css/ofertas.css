@@ -6,4 +6,92 @@
 }
 body {
     font-family: Arial, sans-serif;
+    font-size: 22px;
+    background-color: #c2bfbf;
+    color: #fff;
+}
+/* Estilos da página */
+header {
+    background-color: #42B983;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+#nav-container{
+    padding-top: 10px;
+}
+.nav-item{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 10px;
+}
+.nav-item:hover{
+    color: #ffffffc7;
+}
+main {
+    padding: 20px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+/*  */
+#titOfertas{
+    text-align: center;
+    color: #333;
+    padding: 20px;
+    font-weight: 700;
+}
+/* Seção ofertas */
+section{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+} 
+.oferta-item{
+    padding: 30px;
+    display: grid;
+    border: #333 10px solid;
+    justify-content: center;
+}
+.oferta-item img{
+    width: 260px;
+    height: 200px;
+}
+#innerOf{
+    padding-top: 15px;
+}
+.prd-title{
+    color: #333;
+    
+}
+.prd-tipo{
+    color: #333;
+    
+}
+.prd-valor{
+    color: #ca0a0a;
+    
+}
+.btn {
+    background-color: #42B983;
+    font-size: 22px;
+    border: none;
+    padding: 10px;
+    box-shadow: #333 2px 5px 5px;
+    border-radius: 15px;
+}
+
+.btn:hover{
+    background-color: #42b9837e;
+    cursor: pointer;
+}
+
+#btn-container{
+    text-align: center;
+    padding-top: 15px;
 }
