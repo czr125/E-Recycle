@@ -134,7 +134,7 @@ section {
 /* Media queries */
 
 /* Abaixo */
-@media (max-width: 1400px) {
+@media screen and (max-width: 1400px) {
     main {
         display: block;  
     }
@@ -161,7 +161,7 @@ section {
     }
 }
 /* Acima */
-@media (min-width:1401px) {
+@media screen and (min-width:1401px) {
     main {
         display: block;  
     }
