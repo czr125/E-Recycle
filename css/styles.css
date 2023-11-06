@@ -171,20 +171,62 @@ section {
     }
     section{
         margin: 0;
+        font-size: 18px;
+        word-break: break-all;
     }
     #sobre, #info, #info2, #info3{
         display: block;
         flex-wrap: wrap;
-        padding: 70px;
+        padding: 90px;
     }
     #recycleImg{
+        width: 200px;
+        height: 200px;
         margin-top: -12%;
     }
     #recycleImg2{
+        width: 200px;
+        height: 200px;
         margin-top: -10%;
     }
     #recycleImg3{
+        width: 200px;
+        height: 200px;
         margin-top: -12.5%;
     }
     
+}
+@media screen and (min-width: 1700px) {
+    #recycleImg{
+        width: 230px;
+        height: 230px;
+        margin-top: -13%;
+    }
+    #recycleImg2{
+        width: 230px;
+        height: 230px;
+        margin-top: -10%;
+    }
+    #recycleImg3{
+        width: 240px;
+        height: 240px;
+        margin-top: -12.5%;
+    }
+}
+@media screen and (min-width: 1800px) {
+    #recycleImg{
+        width: 240px;
+        height: 240px;
+        margin-top: -11%;
+    }
+    #recycleImg2{
+        width: 240px;
+        height: 240px;
+        margin-top: -8.5%;
+    }
+    #recycleImg3{
+        width: 240px;
+        height: 240px;
+        margin-top: -10.5%;
+    }
 }
