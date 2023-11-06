@@ -60,7 +60,6 @@ section {
     width: 250px;
     height: 250px;
     float: right;
-    margin-top: -11%;
 }
 /* Info */
 #info{
@@ -133,15 +132,19 @@ section {
     color: #000;
 }
 /* Media queries */
+
+/* Abaixo */
 @media (max-width: 1400px) {
     main {
         display: block;  
     }
     #recycleImg, #recycleImg2, #recycleImg3{
-        width: 30vh;
+        width: 40vh;
+        height: 40vh;
     }
     iframe{
-        width: 50vh;
+        width: 40vh;
+        height: 50vh;
     }
     section{
         margin: 0;
@@ -157,29 +160,31 @@ section {
         padding: 20px;
     }
 }
+/* Acima */
 @media (min-width:1401px) {
     main {
         display: block;  
     }
-    #recycleImg, #recycleImg2, #recycleImg3{
-        width: 30vh;
-    }
     iframe{
-        width: 50vh;
+        width: 120vh;
+        height: 50vh;
     }
     section{
         margin: 0;
     }
     #sobre, #info, #info2, #info3{
-        padding: 0;
-        
-        display: flex;
+        display: block;
         flex-wrap: wrap;
-        padding: 20px;
+        padding: 70px;
     }
-    img#recycleImg,#recycleImg2,#recycleImg3{
-        margin: auto;
-        padding: 20px;
+    #recycleImg{
+        margin-top: -12%;
+    }
+    #recycleImg2{
+        margin-top: -10%;
+    }
+    #recycleImg3{
+        margin-top: -12.5%;
     }
     
 }
