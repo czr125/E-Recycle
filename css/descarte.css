@@ -61,21 +61,19 @@ section{
 .oferta-item img{
     width: 260px;
     height: 200px;
+    border-radius: 10px;
 }
 #innerOf{
-    padding-top: 15px;
+    padding-top: 25px;
 }
 .prd-title{
     color: #333;
-    
 }
-.prd-tipo{
+.prd-ende{
     color: #333;
-    
 }
-.prd-valor{
-    color: #ca0a0a;
-    
+.prd-pessoa{
+    color: #0b6153;
 }
 .btn {
     background-color: #42B983;
@@ -84,6 +82,7 @@ section{
     padding: 10px;
     box-shadow: #333 2px 5px 5px;
     border-radius: 15px;
+    margin-top: 15px;
 }
 
 .btn:hover{
@@ -94,6 +93,24 @@ section{
 #btn-container{
     text-align: center;
     padding-top: 15px;
+}
+/* Logos */
+.whatsapp-link{
+    position: fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 60px;
+	right: 40px;
+	background-color: #25d366;
+	color: #fff;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 30px;
+	box-shadow: 1px 1px 2px #888;
+	z-index: 1000;
+}
+.fa-whatsapp {
+    margin-top: 16px;
 }
 /* Media queries */
 @media screen and (max-width: 1700px) {

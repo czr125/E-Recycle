@@ -122,18 +122,42 @@ section {
 }
 /* Back to top */
 #backTop{
-    font-weight: bold;
-    font-size: 25px;
     text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#backTop button{
+    border: none;
+    background-color: #3c556b;
+    border-radius: 15px;
+    padding: 16px;
 }
 #backTop a{
     font-size: 25px;
+    font-weight: 600;
     text-decoration: none;
-    color: #000;
+    color: #fff;
+}
+/* Logos */
+.whatsapp-link{
+    position: fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 60px;
+	right: 40px;
+	background-color: #25d366;
+	color: #fff;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 30px;
+	box-shadow: 1px 1px 2px #888;
+	z-index: 1000;
+}
+.fa-whatsapp {
+    margin-top: 16px;
 }
 /* Media queries */
-
-/* Abaixo */
+/* Abaixo de 1400px */
 @media screen and (max-width: 1400px) {
     main {
         display: block;  
@@ -160,7 +184,7 @@ section {
         padding: 20px;
     }
 }
-/* Acima */
+/* Acima de 1401px */
 @media screen and (min-width:1401px) {
     main {
         display: block;  
@@ -196,6 +220,7 @@ section {
     }
     
 }
+/* Acima de 1700px */
 @media screen and (min-width: 1700px) {
     #recycleImg{
         width: 230px;
@@ -213,6 +238,7 @@ section {
         margin-top: -12.5%;
     }
 }
+/* Acima de 1800px */
 @media screen and (min-width: 1800px) {
     #recycleImg{
         width: 240px;
