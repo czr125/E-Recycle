@@ -18,9 +18,9 @@ header {
     text-align: center;
     padding: 20px;
 }
-
-#nav-container{
-    padding-top: 20px;
+header h1{
+    font-weight: 600;
+    font-size: 40px;
 }
 .nav-item{
     text-decoration: none;
@@ -71,6 +71,7 @@ section {
 #info h2{
     color: #3dc789;
     font-weight: bold;
+    text-align: right;
 }
 #info p{
     font-weight: 700;
@@ -171,7 +172,6 @@ section {
     #info{
         display: flex;
         flex-direction: column;
-        align-items: center;
         text-align: right;
         padding: 90px;
         background-color: #3c556b;
@@ -200,9 +200,13 @@ section {
         flex-wrap: wrap;
         padding: 20px;
     }
-    img#recycleImg,#recycleImg2,#recycleImg3{
+    img#recycleImg,#recycleImg2{
         margin: auto;
         padding: 20px;
+    }
+    img#recycleImg3{
+        margin: auto;
+        margin-top: -60px;
     }
 }
 /* Acima de 1401px */
