@@ -60,7 +60,7 @@ section{
     border: #333 5px solid;
     justify-content: center;
     border-radius: 10px;
-    background-color: #fff;
+    background-color: #ffffffbb;
 }
 .oferta-item img{
     width: 260px;
@@ -72,12 +72,18 @@ section{
 }
 .prd-title{
     color: #333;
+    font-weight: 500;
+    margin-left: 10px;
 }
 .prd-ende{
     color: #333;
+    font-weight: 500;
+    margin-left: 10px;
 }
 .prd-pessoa{
     color: #0b6153;
+    font-weight: 700;
+    margin-left: 10px;
 }
 .btn {
     background-color: #42B983;

@@ -49,7 +49,7 @@ section {
     padding: 90px;
 }
 #sobre h2{
-    color: #000;
+    color: #1a6155;
     font-weight: bold;
 } 
 #sobre p{
@@ -69,7 +69,7 @@ section {
     background-color: #3c556b;
 }
 #info h2{
-    color: #3dc789;
+    color: #07f9a2;
     font-weight: bold;
     text-align: right;
 }
@@ -89,7 +89,7 @@ section {
     text-align: left;
 }
 #info2 h2{
-    color: #000;
+    color: #1a6155;
     font-weight: bold;
 }
 #info2 p{
@@ -108,7 +108,7 @@ section {
     padding: 90px;
 }
 #info3 h2{
-    color: #3dc789;
+    color: #07f9a2;
     font-weight: bold;
 }
 #info3 p{
@@ -117,18 +117,45 @@ section {
 summary{
     font-size: 27px;
     font-weight: 600;
+    color: #daffff;
+}
+#info3 details {
+    margin-top: 15px;
+} 
+details p{
+    margin-left: 30px;
 }
 /* Mapa */
 #mapa{
     text-align: center;
+    padding: 40px;
+    background-color: #1c2130;
+    border-radius: 30px;
+    width:max-content;
+    justify-content: center;
+    margin: auto;
 }
 #mapa h2{
-    font-weight: bold;
-    padding: 15px;
-    color: #000;
+    font-size: 38px;
+    font-weight: 700;
+    color: #07f9a2;
+    margin-bottom: 20px;
 }
 /* FAQ */
-
+#faq{
+    background-color: #282828;
+    padding: 90px;
+}
+#faq h2{
+    color:#07f9a2;
+    font-weight: bold;
+}
+#faq p{
+    font-weight: 700;
+}
+#faq details{
+    margin-top: 15px;
+}
 /* Back to top */
 #backTop{
     text-align: center;
@@ -171,9 +198,11 @@ summary{
     main {
         display: block;  
     }
-    #recycleImg, #recycleImg2, #recycleImg3{
-        width: 40vh;
-        height: 40vh;
+    #recycleImg, #recycleImg3{
+        width: 250px;
+        height: 250px;
+        position: static;
+        margin-top: -9.5%;
     }
     #info{
         display: flex;
@@ -200,11 +229,14 @@ summary{
     section{
         margin: 0;
     }
-    #sobre, #info, #info2, #info3{
+    #sobre, #info, #info2, #info3, #faq{
         padding: 0;
         display: flex;
         flex-wrap: wrap;
         padding: 20px;
+    }
+    #faq p{
+        font-size: 18px;
     }
     img#recycleImg,#recycleImg2{
         margin: auto;
@@ -227,9 +259,8 @@ summary{
     section{
         margin: 0;
         font-size: 18px;
-        word-break: break-all;
     }
-    #sobre, #info, #info2, #info3{
+    #sobre, #info, #info2, #info3, #faq{
         display: block;
         flex-wrap: wrap;
         padding: 90px;
