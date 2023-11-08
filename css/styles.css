@@ -222,9 +222,12 @@ details p{
         margin-top: -9.5%;
     }
     iframe{
-        max-width: 320px;
+        max-width: 245px;
         height: 50vh;
         margin: 0 auto;
+    }
+    #mapa{
+        max-width: 320px;
     }
     section{
         margin: 0;
