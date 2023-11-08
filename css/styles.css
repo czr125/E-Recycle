@@ -114,6 +114,10 @@ section {
 #info3 p{
     font-weight: 700;
 }
+summary{
+    font-size: 27px;
+    font-weight: 600;
+}
 /* Mapa */
 #mapa{
     text-align: center;
@@ -123,6 +127,8 @@ section {
     padding: 15px;
     color: #000;
 }
+/* FAQ */
+
 /* Back to top */
 #backTop{
     text-align: center;
