@@ -15,7 +15,10 @@ Esse repositório contêm códigos com as seguintes tecnologias:
 - HTML
 - CSS
 - Bootstrap
+- 
+## 💻 Projeto
 
+Link de visualização do projeto: https://czr125.github.io/E-Recycle
 
 ## 📑 Licença 
 
