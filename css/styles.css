@@ -48,7 +48,7 @@ section {
 #sobre{
     padding: 90px;
 }
-#sobre h2{
+#sobre h1{
     color: #1a6155;
     font-weight: bold;
 } 
@@ -68,7 +68,7 @@ section {
     text-align: right;
     background-color: #3c556b;
 }
-#info h2{
+#info h1{
     color: #07f9a2;
     font-weight: bold;
     text-align: right;
@@ -88,7 +88,7 @@ section {
     padding: 90px;
     text-align: left;
 }
-#info2 h2{
+#info2 h1{
     color: #1a6155;
     font-weight: bold;
 }
@@ -105,25 +105,12 @@ section {
 /* Info3 */
 #info3{
     background-color: #3c556b;
-    padding: 90px;
+    border-radius: 15px;
 }
-#info3 h2{
+#info3 #titInfo3{
     color: #07f9a2;
     font-weight: bold;
-}
-#info3 p{
-    font-weight: 700;
-}
-summary{
-    font-size: 27px;
-    font-weight: 600;
-    color: #daffff;
-}
-#info3 details {
-    margin-top: 15px;
-} 
-details p{
-    margin-left: 30px;
+    padding: 20px;
 }
 /* Mapa */
 #mapa{
@@ -131,7 +118,6 @@ details p{
     padding: 40px;
     background-color: #1c2130;
     border-radius: 30px;
-    width:max-content;
     justify-content: center;
     margin: auto;
 }
@@ -143,18 +129,26 @@ details p{
 }
 /* FAQ */
 #faq{
-    background-color: #282828;
-    padding: 90px;
+    background-color: #3c556b;
+    border-radius: 15px;
 }
-#faq h2{
+h2{
     color:#07f9a2;
+    text-align: center;
+    padding: 10px;
     font-weight: bold;
 }
-#faq p{
+.accordion-item{
+    padding: 10px;
+}
+.accordion-header button{
+    font-size: 22px;
     font-weight: 700;
 }
-#faq details{
-    margin-top: 15px;
+.accordion-body{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
 }
 /* Back to top */
 #backTop{
@@ -221,25 +215,14 @@ details p{
         position: static;
         margin-top: -9.5%;
     }
-    iframe{
-        max-width: 225px;
-        height: 50vh;
-        margin: 0 auto;
-    }
-    #mapa{
-        max-width: 300px;
-    }
     section{
         margin: 0;
     }
-    #sobre, #info, #info2, #info3, #faq{
+    #sobre, #info, #info2{
         padding: 0;
         display: flex;
         flex-wrap: wrap;
         padding: 20px;
-    }
-    #faq p{
-        font-size: 18px;
     }
     img#recycleImg,#recycleImg2{
         margin: auto;
@@ -255,15 +238,11 @@ details p{
     main {
         display: block;  
     }
-    iframe{
-        width: 120vh;
-        height: 50vh;
-    }
     section{
         margin: 0;
         font-size: 18px;
     }
-    #sobre, #info, #info2, #info3, #faq{
+    #sobre, #info, #info2{
         display: block;
         flex-wrap: wrap;
         padding: 90px;
