@@ -1,4 +1,4 @@
-<h1 align="center"> E-Recycle </h1>
+## <img src="./assets/recycle.png" width='27px' height='30px'> E-Recycle 
 
 <p align="center">
 Repositório de Projeto Acadêmico para a matéria de Projeto de Extensão
