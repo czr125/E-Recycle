@@ -14,6 +14,7 @@ Esse repositório contêm códigos com as seguintes tecnologias:
 
 - HTML
 - CSS
+- Bootstrap
 
 
 ## 📑 Licença 
